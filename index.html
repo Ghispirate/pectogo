@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEC-TOGO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005bb5;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .testimonial {
+            border-left: 4px solid #0073e6;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #0073e6;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .donate-button {
+            background-color: #ff6600;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PEC-TOGO</h1>
+        <h2>Promotion de l'Éducation et de la Culture au TOGO</h2>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#testimonials">Témoignages</a>
+        <a href="#contact">Contact</a>
+        <a href="#donate">Faire un don</a>
+    </nav>
+    <section id="about">
+        <div class="content">
+            <h2>À propos de nous</h2>
+            <p>PEC-TOGO se consacre à la promotion de la culture et de l'éducation pour tous. Nous croyons que l'accès à la culture et à l'éducation est essentiel pour le développement personnel et collectif.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="content">
+            <h2>Nos projets</h2>
+            <p>Nous avons plusieurs projets en cours, notamment des ateliers éducatifs, des événements culturels et des programmes de soutien scolaire. Chaque projet vise à enrichir la vie des individus et des communautés.</p>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="content">
+            <h2>Galerie de photos</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="Photo 1">
+                <img src="photo2.jpg" alt="Photo 2">
+                <img src="photo3.jpg" alt="Photo 3">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="content">
+            <h2>Témoignages</h2>
+            <div class="testimonial">
+                <p>"Grâce à PEC-TOGO, j'ai pu découvrir de nouvelles perspectives culturelles et éducatives." - Jean</p>
+            </div>
+            <div class="testimonial">
+                <p>"Les ateliers éducatifs m'ont beaucoup aidé dans mes études." - Marie</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="content">
+            <h2>Contactez-nous</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <section id="donate">
+        <div class="content">
+            <h2>Faire un don</h2>
+            <p>Votre soutien est essentiel pour nous aider à poursuivre nos projets. Cliquez sur le bouton ci-dessous pour faire un don.</p>
+            <a href="https://www.paypal.com/donate" class="donate-button">Faire un don</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 PEC-TOGO. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
